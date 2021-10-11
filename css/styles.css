@@ -1,0 +1,118 @@
+@font-face {
+  src: url("../font/GTWalsheimPro-Regular.ttf");
+  font-family: GT Walsheim Pro;
+}
+@font-face {
+  font-family: GT Walsheium b;
+  src: url("../font/GTWalsheimPro-Bold.ttf");
+}
+
+body {
+  margin: 0;
+}
+h1, h2, h3 {
+  color:rgb(76, 76, 179);
+}
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  background-color: rgb(235, 235, 235);
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 3%;
+  text-align: center;
+}
+
+/* profile image */
+.sidenav img {
+  width: 70%;
+  border-radius: 50%; /* make the image round */
+  transition: transform 0.2s; /* Animation */
+}
+
+/* zoom image on hover */
+.sidenav img:hover{
+  transform: scale(1.3); /*zoom 130% on hover */
+}
+
+/* The navigation menu text content */
+.nav-content {
+  text-align: left;
+  width: 100%;
+}
+
+.nav-content i {
+  width: 20px;
+}
+
+.nav-content p {
+  padding: 8px 8px 8px 32px; /* padding sequence: top right bottom left */
+  font-size: 1.2rem;
+  color: #111;
+  display: flex;
+}
+
+.nav-content span {
+  font-family: GT Walsheim Pro;
+  margin-left: 10px;
+}
+
+/* Reduce text size for screens having less than 1000 px */
+@media (max-width: 1000px) {
+  .sidenav p {
+    font-size: 1rem;
+  }
+}
+
+/* header styling */
+header {
+  align-content: center;
+  text-align: center;
+}
+.header-links {
+  margin-top: 2%;
+}
+/* targeting the a tags in the "header-links" div */
+.header-links a {
+  margin: 0 3%;
+}
+
+/* main cv heading */
+header h1 {
+  margin-top: 0px;
+}
+
+/* page heading */
+header h2 {
+  margin: 3% 0 0 0;
+}
+
+/* Page styling */
+#main {
+  font-family: GT Walsheim Pro;
+  padding: 20px 0px 10px;
+  margin: 0 0 0 20%;
+}
+.page-content {
+  width: 100%;
+}
+
+/* only for formation page */
+.sub-container {
+  padding: 0 3%;
+}
+
+.training {
+  margin-top: 5%;
+}
+
+/* footer styling */
+footer {
+  margin-top: 2%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: row; /*move the lists next to each other */
+  justify-content: space-between; /* distribute the empty space between lists */
+}

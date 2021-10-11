@@ -1,0 +1,7 @@
+body {
+    background-image: url("../img/back3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 135%;
+    height: 100vh;
+  }
